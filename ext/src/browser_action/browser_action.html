@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+		body {
+			font-family: 'Open Sans', sans-serif;
+			/* width and height with 500px and background color of black */
+			width: 150px;
+			height: 150px;
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+			
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Created By ❤️ <br> by <a href="https://twitter.com/boredreza" target="_blank">Reza Aghajani</a></h1>
+	
+
+	<script>
+		// alert when the browser action icon is clicked
+		chrome.browserAction.onClicked.addListener(function(tab) {
+			console.log('You clicked the browser action!');
+		});
+	</script>
+</body>
+	
+</html>
